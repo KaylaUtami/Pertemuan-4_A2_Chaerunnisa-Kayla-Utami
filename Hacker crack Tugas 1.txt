@@ -1,0 +1,17 @@
+A = input()
+A = A.split()
+
+if A [0] == "[]" and A[1] == "8<":
+    print("Pemain B menang")
+elif A [0] == "()" and A[1] == "8<":
+    print("Pemain A menang")
+if A [0] == "8<" and A[1] == "()":
+    print("Pemain B menang")
+elif A [0] == "[]" and A[1] == "()":
+    print("Pemain A menang")
+if A [0] == "()" and A[1] == "[]":
+    print("Pemain B menang")
+elif A [0] == "8<" and A[1] == "[]":
+    print("Pemain A menang")
+else:
+    ("Draw")

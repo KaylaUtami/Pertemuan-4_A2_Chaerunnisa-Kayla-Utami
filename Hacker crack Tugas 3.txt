@@ -1,0 +1,12 @@
+a = int(input())
+b = int(input())
+c = int(input())
+
+if a>b and a>c:
+    bilangan_kedua_terbesar = max(b,c)
+elif b>a and b > c:
+    bilangan_kedua_terbesar = max(a,c)
+else:
+    bilangan_kedua_terbesar = max(a,b)
+
+print("Bilangan kedua terbesar adalah:", bilangan_kedua_terbesar)
